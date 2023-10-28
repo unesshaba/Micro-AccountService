@@ -1,6 +1,7 @@
  type  Query{
     accountsList:[BankAccount],
-     bankAccountById(id:String):BankAccount
+     bankAccountById(id:String):BankAccount,
+     customers:[Customer]
 
 }
  type Mutation{
